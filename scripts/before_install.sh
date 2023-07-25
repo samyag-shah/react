@@ -1,4 +1,5 @@
 #!/bin/bash
-cd /home/ubuntu/react_app
-curl -sL https://rpm.nodesource.com/setup_16.x | sudo -E bash -
-yum -y install nodejs npm
+cd ~
+curl -sL https://deb.nodesource.com/setup_16.x -o /tmp/nodesource_setup.sh
+sudo bash /tmp/nodesource_setup.sh
+sudo apt install nodejs
